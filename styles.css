@@ -1,0 +1,32 @@
+body, div, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+#edit-container {
+  height: 200px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+#js-label {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+#titles, #textareas {
+  display: flex;
+  justify-content: space-between;
+}
+
+#css-edit, #html-edit, #js-edit {
+  width: 33.2%;
+  height: 130px;
+  font-size: 18px;
+}
+
+#target-container, html, body {
+  height: 100%;
+}

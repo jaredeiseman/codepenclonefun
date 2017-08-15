@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>style injection</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <style id="custom-styles"></style>
+  </head>
+  <body>
+    <div id="edit-container">
+      <div id="titles">
+        <h2>HTML</h2>
+        <h2>CSS</h2>
+        <div id="js-label">
+          <button type="button" id="js-run" name="button">Run</button>
+          <h2>JS</h2>
+        </div>
+      </div>
+      <div id="textareas">
+        <textarea id="html-edit"></textarea>
+        <textarea id="css-edit"></textarea>
+        <textarea id="js-edit"></textarea>
+      </div>
+    </div>
+    <div id="target-container"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
